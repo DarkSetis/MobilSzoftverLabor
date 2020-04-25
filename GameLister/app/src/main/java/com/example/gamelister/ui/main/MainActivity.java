@@ -1,8 +1,10 @@
-package com.example.gamelister;
+package com.example.gamelister.ui.main;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+import com.example.gamelister.R;
 
 public class MainActivity extends AppCompatActivity {
 
