@@ -29,7 +29,6 @@ android:
  script: 
  ./gradlew :app:build
   - ant build package
-  - ant build package
 notifications:
  email:
  recipients:
