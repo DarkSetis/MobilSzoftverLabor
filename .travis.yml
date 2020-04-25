@@ -15,7 +15,7 @@ android:
     - sys-img-armeabi-v7a-android-21
 before_install:
   - yes | sdkmanager "platforms;android-29"
-script: ./GameLister/gradlew :app:build
+script: ./gradlew :app:build
 notifications:
   email:
     recipients:
