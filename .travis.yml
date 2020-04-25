@@ -15,7 +15,21 @@ android:
  - sys-img-armeabi-v7a-android-21
  before_install:
  - yes | sdkmanager "platforms;android-29"
- script: ./gradlew :app:build
+ before_script:
+  - >
+      sudo apt install -y
+      build-essential
+      omniidl
+      libomniorb4-dev
+      libcos4-dev
+      libomnithread3-dev
+      libzmq3-dev
+      libmysqlclient-dev
+      ant
+ script: 
+ ./gradlew :app:build
+  - ant build package
+  - ant build package
 notifications:
  email:
  recipients:
