@@ -1,4 +1,4 @@
-package com.example.gamelister.model;
+package com.example.gamelister.model.dto;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName;
 import java.util.Date;
 import java.util.List;
 
-class GameItem {
+public class GameItem {
 
     @SerializedName("aliases")
     @Expose

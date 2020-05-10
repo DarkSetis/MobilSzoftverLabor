@@ -1,4 +1,4 @@
-package com.example.gamelister.model;
+package com.example.gamelister.model.dto;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
@@ -9,11 +9,11 @@ public class GameResult {
     @Expose
     private Games games;
 
-    public Games getArtists() {
+    public Games getGames() {
         return games;
     }
 
-    public void setArtists(Games artists) {
-        this.games = artists;
+    public void setGames(Games games) {
+        this.games = games;
     }
 }

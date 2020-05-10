@@ -1,6 +1,6 @@
 package com.example.gamelister.interactor.games;
 
-import com.example.gamelister.model.GameResult;
+import com.example.gamelister.model.dto.GameResult;
 
 import java.util.List;
 

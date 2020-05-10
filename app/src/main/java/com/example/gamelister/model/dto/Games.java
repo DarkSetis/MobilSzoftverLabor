@@ -1,4 +1,4 @@
-package com.example.gamelister.model;
+package com.example.gamelister.model.dto;
 
 
 import com.google.gson.annotations.Expose;

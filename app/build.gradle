@@ -23,17 +23,22 @@ android {
 
 }
 
+ext {
+    okhttp_version = "3.0.1"
+    oltu_version = "1.0.0"
+    retrofit_version = "2.0.0-beta3"
+    gson_version = "2.4"
+    swagger_annotations_version = "1.5.0"
+    junit_version = "4.12"
+
+}
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     //Google
     implementation 'androidx.appcompat:appcompat:1.0.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.google.android.material:material:1.0.0'
-
-    //Retrofit
-    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
-    implementation 'com.google.code.gson:gson:2.8.5'
 
     //Utils
     implementation 'org.greenrobot:eventbus:3.1.1'
@@ -48,5 +53,21 @@ dependencies {
     implementation 'com.google.dagger:dagger:2.21'
     annotationProcessor "com.google.dagger:dagger-compiler:2.21"
     compileOnly 'javax.annotation:jsr250-api:1.0'
+
+    implementation "io.swagger:swagger-annotations:1.5.0"
+
+
+    implementation "com.squareup.okhttp3:logging-interceptor:4.6.0"
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+
+
+    implementation "com.google.code.gson:gson:$gson_version"
+    implementation "io.swagger:swagger-annotations:$swagger_annotations_version"
+    implementation "org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:$oltu_version"
+
+    testCompile "junit:junit:$junit_version"
+    implementation 'androidx.room:room-runtime:2.1.0'
+    annotationProcessor 'androidx.room:room-compiler:2.1.0'
 
 }

@@ -1,21 +1,21 @@
-package com.example.gamelister.model;
+package com.example.gamelister.model.dto;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class OriginalGameRatingItem {
+public class ImageTags {
 
     @SerializedName("api_detail_url")
     @Expose
     private String api_detail_url;
 
-    @SerializedName("id")
-    @Expose
-    private int id;
-
     @SerializedName("name")
     @Expose
     private String name;
+
+    @SerializedName("total")
+    @Expose
+    private int total;
 
     public String getApi_detail_url() {
         return api_detail_url;
@@ -25,19 +25,19 @@ public class OriginalGameRatingItem {
         this.api_detail_url = api_detail_url;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getTotal() {
+        return total;
+    }
+
+    public void setTotal(int total) {
+        this.total = total;
     }
 }

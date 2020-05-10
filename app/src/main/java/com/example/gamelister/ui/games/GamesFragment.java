@@ -2,7 +2,7 @@ package com.example.gamelister.ui.games;
 
 import androidx.fragment.app.Fragment;
 
-import com.example.gamelister.model.Games;
+import com.example.gamelister.model.dto.Games;
 
 import java.util.List;
 
