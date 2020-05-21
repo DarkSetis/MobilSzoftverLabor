@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "372873862038",
+    "firebase_url": "https://gamelisteraut.firebaseio.com",
+    "project_id": "gamelisteraut",
+    "storage_bucket": "gamelisteraut.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372873862038:android:8c5cf937f219c5d86b9bb7",
+        "android_client_info": {
+          "package_name": "com.example.gamelister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372873862038-9m0gmi8cfak7349l8hth5r7c5u16hpbo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0PgrTKx8RcHSidCWkIhO_Js4kp7zDw3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372873862038-9m0gmi8cfak7349l8hth5r7c5u16hpbo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

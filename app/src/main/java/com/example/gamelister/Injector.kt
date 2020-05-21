@@ -1,7 +1,7 @@
 package com.example.gamelister
 
 import android.app.Activity
-import android.support.v4.app.Fragment
+import androidx.fragment.app.Fragment
 
 val Activity.injector: GameListerApplicationComponent
     get() {

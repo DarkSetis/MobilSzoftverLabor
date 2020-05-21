@@ -7,7 +7,6 @@ import com.example.gamelister.network.GamesApi
 import com.example.gamelister.network.NetworkConfig
 import org.greenrobot.eventbus.EventBus
 import javax.inject.Inject
-
 class GamesInteractor @Inject constructor(private var gamesApi: GamesApi) {
     fun getAllGames() {
         val event = GetAllGamesEvent()
